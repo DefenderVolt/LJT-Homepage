@@ -19,6 +19,29 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      - name: Remove template-only pages and sample files
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          for path in _pages/*; do
+            name="$(basename "$path")"
+            case "$name" in
+              about.md|publications.html|404.md) ;;
+              *) git rm -rf --ignore-unmatch "$path" ;;
+            esac
+          done
+
+          git rm -rf --ignore-unmatch \
+            _posts _drafts _teaching _talks _portfolio files \
+            talkmap talkmap.ipynb talkmap.py talkmap_out.ipynb
+
+          if ! git diff --cached --quiet; then
+            git commit -m "Remove template demo pages and files"
+            git push "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git" HEAD:master
+          fi
+
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:

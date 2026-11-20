@@ -12,58 +12,12 @@ repository: "DefenderVolt/LJT-Homepage"
 author:
   avatar: "https://github.com/Vicent0205.png"
   name: "Junteng Liu"
-  pronouns: ""
   bio: "First-year PhD candidate at HKUST NLP Group."
-  location: ""
   employer: "HKUST NLP Group, Hong Kong University of Science and Technology"
-  uri: ""
   email: "jliugi@connect.ust.hk"
-
-  academia: ""
-  arxiv: ""
   googlescholar: "https://scholar.google.com/citations?hl=en&user=tbK9jl4AAAAJ&view_op=list_works&sortby=pubdate"
-  inspire-hep: ""
-  impactstory: ""
-  orcid: ""
-  semantic: ""
-  ssrn: ""
-  pubmed: ""
-  researchgate: ""
-  scopus: ""
-  zotero: ""
-
-  bitbucket: ""
-  codepen: ""
-  dribbble: ""
   github: "Vicent0205"
-  kaggle: ""
-  stackoverflow: ""
-
-  artstation: ""
-  bluesky: ""
-  facebook: ""
-  flickr: ""
-  foursquare: ""
-  goodreads: ""
-  google_plus: ""
-  keybase: ""
-  instagram: ""
-  lastfm: ""
-  linkedin: ""
-  mastodon: ""
-  medium: ""
-  pinterest: ""
-  soundcloud: ""
-  steam: ""
-  telegram: ""
-  tumblr: ""
   twitter: "junteng88716710"
-  vine: ""
-  weibo: ""
-  wikipedia: ""
-  xing: ""
-  youtube: ""
-  zhihu: ""
 
 publication_category:
   manuscripts:
@@ -79,71 +33,62 @@ talkmap_link: false
 
 comments:
   provider: false
-  disqus:
-    shortname: ""
-  discourse:
-    server: ""
 
 atom_feed:
-  hide: false
+  hide: true
   path: ""
-
-google_site_verification: ""
-bing_site_verification: ""
-alexa_site_verification: ""
-yandex_site_verification: ""
 
 twitter:
   username: "junteng88716710"
-facebook:
-  username: ""
-  app_id: ""
-  publisher: ""
-og_image: ""
-og_description: ""
+
 social:
   type: "Person"
   name: "Junteng Liu"
   links:
     - "https://github.com/Vicent0205"
     - "https://scholar.google.com/citations?hl=en&user=tbK9jl4AAAAJ&view_op=list_works&sortby=pubdate"
+    - "https://x.com/junteng88716710"
+    - "mailto:jliugi@connect.ust.hk"
 
 analytics:
-  provider: "false"
-  google:
-    tracking_id: ""
+  provider: false
 
 include:
   - .htaccess
   - _pages
-  - files
 
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
   - .asset-cache
   - .bundle
+  - .devcontainer
   - .github
   - .jekyll-assets-cache
   - .sass-cache
-  - assets/js/_main.js
-  - assets/js/plugins
-  - assets/js/vendor
+  - AGENTS.md
   - CHANGELOG
   - Capfile
-  - config
   - Dockerfile
   - Gemfile
   - Gruntfile.js
-  - gulpfile.js
   - LICENSE
-  - local
-  - log
+  - Rakefile
+  - README.md
+  - _config_docker.yml
+  - assets/js/_main.js
+  - assets/js/plugins
+  - assets/js/vendor
+  - config
+  - docker-compose.yaml
+  - markdown_generator
   - node_modules
   - package.json*
-  - Rakefile
-  - README
-  - tmp
+  - scripts
+  - talkmap
+  - talkmap.ipynb
+  - talkmap.py
+  - talkmap_out.ipynb
   - vendor
 
 keep_files:
@@ -170,30 +115,11 @@ kramdown:
   enable_coderay: false
 
 collections:
-  teaching:
-    output: true
-    permalink: /:collection/:path/
   publications:
-    output: true
-    permalink: /:collection/:path/
-  portfolio:
-    output: true
-    permalink: /:collection/:path/
-  talks:
     output: true
     permalink: /:collection/:path/
 
 defaults:
-  - scope:
-      path: ""
-      type: posts
-    values:
-      layout: single
-      author_profile: true
-      read_time: true
-      comments: true
-      share: true
-      related: true
   - scope:
       path: ""
       type: pages
@@ -202,35 +128,12 @@ defaults:
       author_profile: true
   - scope:
       path: ""
-      type: teaching
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comments: true
-  - scope:
-      path: ""
       type: publications
     values:
       layout: single
       author_profile: true
       share: true
       comments: true
-  - scope:
-      path: ""
-      type: portfolio
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comment: true
-  - scope:
-      path: ""
-      type: talks
-    values:
-      layout: talk
-      author_profile: true
-      share: true
 
 sass:
   sass_dir: _sass
