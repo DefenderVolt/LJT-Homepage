@@ -2,14 +2,11 @@
 permalink: /
 title: "Junteng Liu"
 author_profile: true
-redirect_from:
-  - /about/
-  - /about.html
 ---
 
 I am Junteng Liu, a first-year PhD candidate in the HKUST NLP Group. I am pursuing a Ph.D. in Computer Science at the Hong Kong University of Science and Technology (HKUST) from 2024 to Present. I graduated from Shanghai Jiao Tong University (SJTU) in June 2024 after completing my B.Eng. there from 2020 to 2024.
 
-My research focuses on natural language processing and machine learning. My recorded research interests include LLM reasoning and reinforcement learning, hallucination in vision-language models (VLM), and LLM truthfulness and interpretability.
+My research focuses on natural language processing and machine learning. My research interests include LLM reasoning and reinforcement learning, hallucination in vision-language models (VLM), and LLM truthfulness and interpretability.
 
 ## Academic Background
 
@@ -22,12 +19,12 @@ My research focuses on natural language processing and machine learning. My reco
 ## Research Experience
 
 - **Research Intern, MINIMAX** — February 2025–Present.
-  - MINIMAX is recorded as an AI/technology company.
+  - MINIMAX is an AI/technology company.
 - **Research Intern, Tencent WXG** — June 2024–September 2024.
   - Tencent WXG is a division of Tencent.
   - Internship advisor: Zifei Shan, who works at Tencent WXG.
 - **Research Intern, Shanghai AI Lab** — June 2023–December 2023.
-  - Shanghai AI Lab is recorded as a research institution and AI research laboratory.
+  - Shanghai AI Lab is a research institution and AI research laboratory.
   - Internship advisor: Prof. Yu Cheng, a professor associated with Shanghai AI Lab.
 - **PhD Candidate, HKUST NLP Group** — 2024–Present.
   - PhD supervisor: Professor Junxian He.
@@ -38,7 +35,7 @@ My research focuses on natural language processing and machine learning. My reco
 
 ## Publications
 
-The complete publication list recorded in memory is included below. It is also available on the [Publications page]({{ '/publications/' | relative_url }}), with additional details on [Google Scholar](https://scholar.google.com/citations?hl=en&user=tbK9jl4AAAAJ&view_op=list_works&sortby=pubdate).
+The list below is also available on the [Publications page]({{ '/publications/' | relative_url }}). Additional publication details are available on [Google Scholar](https://scholar.google.com/citations?hl=en&user=tbK9jl4AAAAJ&view_op=list_works&sortby=pubdate).
 
 1. **SynLogic: Synthesizing Verifiable Reasoning Data at Scale for Learning Logical Reasoning and Beyond** (arXiv, 2025) — First author.
    - Authors: Junteng Liu, Yuanxiang Fan, Zhuo Jiang, Han Ding, Yongyi Hu, Chi Zhang, Yiqi Shi, Shitong Weng, Aili Chen, Shiqi Chen, Yunan Huang, Mozhi Zhang, Pengyu Zhao, Junjie Yan, Junxian He.
@@ -62,8 +59,6 @@ The complete publication list recorded in memory is included below. It is also a
    - Authors: Jinghan Zhang, Shiqi Chen, Junteng Liu, Junxian He.
 
 ## Skills and Research Interests
-
-The recorded skill and research-focus areas are:
 
 - Natural language processing
 - Machine learning
