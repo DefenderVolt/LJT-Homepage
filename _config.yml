@@ -35,8 +35,7 @@ comments:
   provider: false
 
 atom_feed:
-  hide: true
-  path: ""
+  path:
 
 twitter:
   username: "junteng88716710"
