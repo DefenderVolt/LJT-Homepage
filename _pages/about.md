@@ -15,7 +15,7 @@ My research focuses on natural language processing and machine learning. My reco
 
 - **Hong Kong University of Science and Technology** — Ph.D. in Computer Science, 2024–Present.
   - First-year PhD candidate, HKUST NLP Group.
-  - PhD supervisor: Professor Junxian He. The recorded information also notes that Professor He previously advised me during undergraduate studies at SJTU.
+  - PhD supervisor: Professor Junxian He. He also advised me during my undergraduate studies at SJTU.
 - **Shanghai Jiao Tong University (SJTU)** — B.Eng., 2020–2024; graduated in June 2024.
 
 ## Research Experience
@@ -41,7 +41,7 @@ The same publication list is also available on the [Publications page]({{ '/publ
    - Code: GitHub code repository available.
 
 2. **On the Perception Bottleneck of VLMs for Chart Understanding** (arXiv, 2025) — First author.
-   - Authors: Junteng Liu, Weihao Zeng, Xiwen Zhang, Yijun Wang, Zifei Shan, Junxian He.
+   - Authors: Junteng Liu, Weihao Zeng, Xiwen Zhang, Zifei Wang? Wait no, exact is Yijun Wang, Zifei Shan, Junxian He. Ensure.
    - Code repository: `Vision4Chart` on GitHub.
 
 3. **On the Universal Truthfulness Hyperplane Inside LLMs** (EMNLP 2024) — First author.
