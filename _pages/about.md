@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am Junteng Liu, a first-year PhD candidate in the [HKUST NLP Group](https://hkust.edu.hk/). I am pursuing a Ph.D. in Computer Science at the Hong Kong University of Science and Technology (2024–Present). I graduated from Shanghai Jiao Tong University in June 2024 after completing my B.Eng. there from 2020 to 2024.
+I am Junteng Liu, a first-year PhD candidate in the HKUST NLP Group. I am pursuing a Ph.D. in Computer Science at the Hong Kong University of Science and Technology (2024–Present). I graduated from Shanghai Jiao Tong University in June 2024 after completing my B.Eng. there from 2020 to 2024.
 
 My research focuses on natural language processing and machine learning. My recorded research interests include LLM reasoning and reinforcement learning, hallucination in vision-language models (VLM), and LLM truthfulness and interpretability.
 
@@ -15,7 +15,7 @@ My research focuses on natural language processing and machine learning. My reco
 
 - **Hong Kong University of Science and Technology** — Ph.D. in Computer Science, 2024–Present.
   - First-year PhD candidate, HKUST NLP Group.
-  - PhD supervisor: [Professor Junxian He](https://github.com/). The recorded information also notes that Professor He previously advised me during undergraduate studies at SJTU.
+  - PhD supervisor: Professor Junxian He. The recorded information also notes that Professor He previously advised me during undergraduate studies at SJTU.
 - **Shanghai Jiao Tong University (SJTU)** — B.Eng., 2020–2024; graduated in June 2024.
 
 ## Research Experience
@@ -58,8 +58,6 @@ The same publication list is also available on the [Publications page]({{ '/publ
    - Authors: Jinghan Zhang, Shiqi Chen, Junteng Liu, Junxian He.
 
 ## Research Skills and Interests
-
-The skill-related information recorded in memory consists of the following research areas and methods:
 
 - Natural language processing
 - Machine learning
