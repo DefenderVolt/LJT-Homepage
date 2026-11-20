@@ -41,7 +41,7 @@ The same publication list is also available on the [Publications page]({{ '/publ
    - Code: GitHub code repository available.
 
 2. **On the Perception Bottleneck of VLMs for Chart Understanding** (arXiv, 2025) — First author.
-   - Authors: Junteng Liu, Weihao Zeng, Xiwen Zhang, Zifei Wang? Wait no, exact is Yijun Wang, Zifei Shan, Junxian He. Ensure.
+   - Authors: Junteng Liu, Weihao Zeng, Xiwen Zhang, Yijun Wang, Zifei Shan, Junxian He.
    - Code repository: `Vision4Chart` on GitHub.
 
 3. **On the Universal Truthfulness Hyperplane Inside LLMs** (EMNLP 2024) — First author.
